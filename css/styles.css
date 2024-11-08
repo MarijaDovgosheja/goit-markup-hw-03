@@ -299,7 +299,6 @@ font-weight: 700;
  }
 
  .portfolio-list {
-   border: 1px solid #e7e9fc;
     row-gap: 48px;
     display: flex;
     flex-wrap: wrap;
@@ -312,9 +311,8 @@ font-weight: 700;
  }
 
  .portfolio-item {
-    box-sizing: border-box;
+   border: 1px solid #e7e9fc;
     width: calc((100% - 2 * 24px) / 3);
-    border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 0;
  }
