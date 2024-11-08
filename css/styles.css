@@ -171,18 +171,16 @@ font-weight: 700;
  }
 
  .visually-hidden {
-      width: 1px;
-      height: 1px;
-      margin: -1px;
-      border: 0;
-      padding: 0;
-      white-space: nowrap;
-      clip-path: inset(100%);
-      clip: rect(0 0 0 0);
-      white-space: nowrap;
-         clip-path: inset(100%);
-         clip: rect(0 0 0 0);
+      position: absolute;
+         width: 1px;
+         height: 1px;
+         margin: -1px;
+         padding: 0;
+         border: 0;
          overflow: hidden;
+         clip: rect(0, 0, 0, 0);
+         clip-path: inset(100%);
+         white-space: nowrap;
 }
 
  .core-values-list {
@@ -308,11 +306,13 @@ font-weight: 700;
       column-gap: 24px;
  }
 .portfolio-content {
-   border: 1px solid #e7e9fc;
    padding: 32px 16px;
 
 }
  .portfolio-item {
+   width: calc((100% - 2* 24px) / 3);
+   border: 1px solid #e7e9fc;
+   border-top: none;
     margin-bottom: 0;
  }
  
