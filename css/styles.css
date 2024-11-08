@@ -299,6 +299,7 @@ font-weight: 700;
  }
 
  .portfolio-list {
+   border: 1px solid #e7e9fc;
     row-gap: 48px;
     display: flex;
     flex-wrap: wrap;
