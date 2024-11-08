@@ -179,6 +179,10 @@ font-weight: 700;
       white-space: nowrap;
       clip-path: inset(100%);
       clip: rect(0 0 0 0);
+      white-space: nowrap;
+         clip-path: inset(100%);
+         clip: rect(0 0 0 0);
+         overflow: hidden;
 }
 
  .core-values-list {
@@ -304,6 +308,7 @@ font-weight: 700;
       column-gap: 24px;
  }
 .portfolio-content {
+   border-top: none;
    border: 1px solid #e7e9fc;
    padding: 32px 16px;
 
