@@ -251,6 +251,7 @@ font-weight: 700;
    background: url("path_to_image");
 }
 .team-content {
+   border-top: none;
    margin: auto;
    text-align: center;
    width: 232px;
