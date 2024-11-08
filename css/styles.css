@@ -166,7 +166,9 @@ font-weight: 700;
    background-color: #404bbf;
 }
 
- .core-values {}
+ .core-values {
+   padding: 120px 0;
+ }
 
  .visually-hidden {
       width: 1px;
@@ -188,7 +190,7 @@ padding-bottom: 120px;
 }
 
  .core-values-item {
-   flex-basis: calc((100% - 72px) / 4);
+   width: calc((100% - 72px) / 4);
 
  }
 
@@ -249,7 +251,6 @@ font-weight: 700;
    background: url("path_to_image");
 }
 .team-content {
-   margin-bottom: 8px;
    margin: auto;
    text-align: center;
    width: 232px;
@@ -257,6 +258,7 @@ font-weight: 700;
    padding-bottom: 32px;
 }
  .team-name {
+   margin-bottom: 8px;
    font-weight: 500;
       font-size: 20px;
       line-height: 1.2;
@@ -295,18 +297,17 @@ font-weight: 700;
 
  .portfolio-list {
    row-gap: 48px;
-      display: grid;
+      display: flex;
       flex-wrap: wrap;
       grid-template-columns: repeat(3, 1fr);
       column-gap: 24px;
  }
 .portfolio-content {
-   margin-bottom: 8px;
+   border: 1px solid #e7e9fc;
    padding: 32px 16px;
 
 }
  .portfolio-item {
-   border: 1px solid #e7e9fc;
     margin-bottom: 0;
  }
  
@@ -318,6 +319,7 @@ font-weight: 700;
  }
 
  .portfolio-subtitle {
+   margin-bottom: 8px;
 font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
