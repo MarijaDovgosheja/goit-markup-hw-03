@@ -281,6 +281,7 @@ font-weight: 700;
  }
  
  .portfolio {
+   border-top: none;
    padding: 120px 0;
    width: 100%;
    background: #fff;
@@ -304,10 +305,7 @@ font-weight: 700;
     flex-wrap: wrap;
     column-gap: 24px;
  }
-.container,
-.portfolio{
-border-top: none;
-}
+
  .portfolio-content {
    border-top: none;
    border: 1px solid #e7e9fc;
